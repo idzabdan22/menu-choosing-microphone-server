@@ -3,7 +3,7 @@ import numpy as np
 import librosa
 import tensorflow as tf
 
-RATE = 22050
+RATE = 44100
 SAVED_MODEL_PATH = "model/gru.h5"
 TEMPORARY_FILE_PATH = "temp.wav"
 

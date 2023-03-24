@@ -15,7 +15,7 @@ SHORT_NORMALIZE = (1.0/32768.0)
 TIMEOUTSIGNAL = ((RATE / CHUNK * 1)+2)
 TEMPORARY_WAVE_FILENAME = "audio/temp.wav"
 SWIDTH = 2
-Threshold = 60
+Threshold = 100
 
 class Audio:
     def __init__(self,):
@@ -31,6 +31,7 @@ class Audio:
             )
             self.stream = stream
             self.silence = True
+            self.var = False
         except Exception as ex:
             self.audio.terminate()
 
@@ -80,10 +81,14 @@ class Audio:
                         input = self.stream.read(CHUNK)
                         rms_val = self.rms(input)
                         if rms_val > Threshold:
+                            self.var = not self.var
                             self.silence = False
                             LastBlock = input
                             self.recording(LastBlock, self.stream)
-                            await websocket.send("1")
+                            if self.var:
+                                await websocket.send("Next")
+                            else:
+                                await websocket.send("Info")
         except websockets.exceptions.ConnectionClosedError:
             self.onClose()
 

@@ -1,8 +1,6 @@
-#!/usr/bin/env python
-
 import asyncio
 import websockets
-import audio as audio
+import Audio as audio
 
 async def sendSpeech(websocket):
     print("Client Connected!")
