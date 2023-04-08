@@ -4,6 +4,7 @@ import wave
 import pyaudio
 import warnings
 import websockets
+import _Speech_Recognition as SR
 
 warnings.filterwarnings("ignore")
 
@@ -15,12 +16,13 @@ SHORT_NORMALIZE = (1.0/32768.0)
 TIMEOUTSIGNAL = ((RATE / CHUNK * 1)+2)
 TEMPORARY_WAVE_FILENAME = "audio/temp.wav"
 SWIDTH = 2
-Threshold = 100
+Threshold = 55
 
 class Audio:
     def __init__(self,):
         try:
             audio = pyaudio.PyAudio()
+            speechRecognition = SR._Speech_Recognition()
             self.audio = audio
             stream = audio.open(
                 format=FORMAT, 
@@ -31,7 +33,23 @@ class Audio:
             )
             self.stream = stream
             self.silence = True
-            self.var = False
+            self.speech_recognition = speechRecognition
+            self.output = {
+                0 : "info",
+                1 : "3",
+                2 : "mati",
+                3 : "6",
+                4 : "1",
+                5 : "4",
+                6 : "next",
+                7 : "keluar",
+                8 : "nyala",
+                9 : "2",
+                10 : "oke",
+                11 : "tidak",
+                12 : "back",
+                13 : "5"
+            }
         except Exception as ex:
             self.audio.terminate()
 
@@ -69,8 +87,7 @@ class Audio:
             waveFile.close()
             del stream
             self.silence = True
-            # return recognize()
-
+            return self.output[self.speech_recognition.predict()]
         except Exception as ex:
             print(ex)
 
@@ -81,16 +98,15 @@ class Audio:
                         input = self.stream.read(CHUNK)
                         rms_val = self.rms(input)
                         if rms_val > Threshold:
-                            self.var = not self.var
                             self.silence = False
                             LastBlock = input
-                            self.recording(LastBlock, self.stream)
-                            if self.var:
-                                await websocket.send("Next")
-                            else:
-                                await websocket.send("Info")
+                            output = self.recording(LastBlock, self.stream)
+                            await websocket.send(output)
+                            
         except websockets.exceptions.ConnectionClosedError:
             self.onClose()
+        # except Exception as ex:
+        #     print(ex)
 
     def onClose(self,):
         try:
@@ -99,5 +115,11 @@ class Audio:
             self.audio.terminate()
         except Exception as ex:
             print(ex)
+
+# if __name__ == "__main__":
+#     audio = Audio()
+#     x = threading.Thread(target=audio.process_audio, args=("none",))
+#     x.start()
+#     # audio.process_audio("none")
 
 
