@@ -71,7 +71,7 @@ class Audio:
             arr = []
             arr.append(lastblock)
             
-            print ("recording...")
+            print ("Recording...")
 
             for i in range(0, int(TIMEOUTSIGNAL)):
                 data = stream.read(CHUNK)
@@ -105,8 +105,6 @@ class Audio:
                             
         except websockets.exceptions.ConnectionClosedError:
             self.onClose()
-        # except Exception as ex:
-        #     print(ex)
 
     def onClose(self,):
         try:
@@ -115,11 +113,4 @@ class Audio:
             self.audio.terminate()
         except Exception as ex:
             print(ex)
-
-# if __name__ == "__main__":
-#     audio = Audio()
-#     x = threading.Thread(target=audio.process_audio, args=("none",))
-#     x.start()
-#     # audio.process_audio("none")
-
 

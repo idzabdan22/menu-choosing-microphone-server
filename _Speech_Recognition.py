@@ -6,14 +6,7 @@ import tensorflow as tf
 
 RATE = 44100
 MODEL_PATH = "model/mfcc_13_with_oke_cnn_200.h5"
-# TEMPORARY_FILE_PATH = "/home/abdan2345/Dataset_Skripsi/clean_dataset/with_oke/Tidak/KHOIR_Tidak_2.wav"
 TEMPORARY_FILE_PATH = "audio/temp.wav"
-
-# Mapping
-# Label
-# MFCC
-
-# for classification methods, there is 2 option for the best result: CNN or GRU
 
 class _Speech_Recognition: 
     def __init__(self):

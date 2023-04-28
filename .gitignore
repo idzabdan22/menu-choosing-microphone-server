@@ -3,4 +3,4 @@ __pycache__/
 bin/
 lib/
 pyvenv.cfg
-audio/
+audio
