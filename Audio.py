@@ -16,7 +16,7 @@ SHORT_NORMALIZE = (1.0/32768.0)
 TIMEOUTSIGNAL = ((RATE / CHUNK * 1)+2)
 TEMPORARY_WAVE_FILENAME = "audio/temp.wav"
 SWIDTH = 2
-Threshold = 55
+Threshold = 150
 
 class Audio:
     def __init__(self,):
@@ -97,6 +97,7 @@ class Audio:
                 while self.silence:
                         input = self.stream.read(CHUNK)
                         rms_val = self.rms(input)
+                        print("RMS:", rms_val)
                         if rms_val > Threshold:
                             self.silence = False
                             LastBlock = input
