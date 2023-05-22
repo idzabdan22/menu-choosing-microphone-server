@@ -4,6 +4,7 @@ import wave
 import pyaudio
 import warnings
 import websockets
+# import threading
 import _Speech_Recognition as SR
 
 warnings.filterwarnings("ignore")
@@ -16,7 +17,7 @@ SHORT_NORMALIZE = (1.0/32768.0)
 TIMEOUTSIGNAL = ((RATE / CHUNK * 1)+2)
 TEMPORARY_WAVE_FILENAME = "audio/temp.wav"
 SWIDTH = 2
-Threshold = 150
+Threshold = 120
 
 class Audio:
     def __init__(self,):

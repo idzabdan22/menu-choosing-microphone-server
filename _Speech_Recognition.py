@@ -42,6 +42,8 @@ class _Speech_Recognition:
         MFCCs = self.preprocess(TEMPORARY_FILE_PATH, num_mfcc=13)
         ct = time.time()
         predicted_index = np.argmax(self.model.predict(MFCCs[np.newaxis, ..., np.newaxis]))
+        # predicted_index_class = self.model.predict(MFCCs[np.newaxis, ..., np.newaxis])
+        # print(predicted_index_class)
         execution_time = time.time() - ct
         print(f"done in {round(execution_time, 2)} seconds")
         print(f"predicted: {self._mapping[predicted_index]}")
