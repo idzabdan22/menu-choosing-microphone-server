@@ -28,3 +28,511 @@
     }
   ]
 }
+
+
+Client Connected!
+ALSA lib confmisc.c:1281:(snd_func_refer) Unable to find definition 'cards.tegra-hda.pcm.front.0:CARD=0'
+ALSA lib conf.c:4528:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5007:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM front
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib confmisc.c:1281:(snd_func_refer) Unable to find definition 'cards.tegra-hda.pcm.surround51.0:CARD=0'
+ALSA lib conf.c:4528:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5007:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM surround21
+ALSA lib confmisc.c:1281:(snd_func_refer) Unable to find definition 'cards.tegra-hda.pcm.surround51.0:CARD=0'
+ALSA lib conf.c:4528:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5007:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM surround21
+ALSA lib confmisc.c:1281:(snd_func_refer) Unable to find definition 'cards.tegra-hda.pcm.surround40.0:CARD=0'
+ALSA lib conf.c:4528:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5007:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM surround40
+ALSA lib confmisc.c:1281:(snd_func_refer) Unable to find definition 'cards.tegra-hda.pcm.surround51.0:CARD=0'
+ALSA lib conf.c:4528:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5007:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM surround41
+ALSA lib confmisc.c:1281:(snd_func_refer) Unable to find definition 'cards.tegra-hda.pcm.surround51.0:CARD=0'
+ALSA lib conf.c:4528:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5007:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM surround50
+ALSA lib confmisc.c:1281:(snd_func_refer) Unable to find definition 'cards.tegra-hda.pcm.surround51.0:CARD=0'
+ALSA lib conf.c:4528:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5007:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM surround51
+ALSA lib confmisc.c:1281:(snd_func_refer) Unable to find definition 'cards.tegra-hda.pcm.surround71.0:CARD=0'
+ALSA lib conf.c:4528:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5007:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM surround71
+ALSA lib confmisc.c:1281:(snd_func_refer) Unable to find definition 'cards.tegra-hda.pcm.iec958.0:CARD=0,AES0=4,AES1=130,AES2=0,AES3=2'
+ALSA lib conf.c:4528:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5007:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM iec958
+ALSA lib confmisc.c:1281:(snd_func_refer) Unable to find definition 'cards.tegra-hda.pcm.iec958.0:CARD=0,AES0=4,AES1=130,AES2=0,AES3=2'
+ALSA lib conf.c:4528:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5007:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM spdif
+ALSA lib confmisc.c:1281:(snd_func_refer) Unable to find definition 'cards.tegra-hda.pcm.iec958.0:CARD=0,AES0=4,AES1=130,AES2=0,AES3=2'
+ALSA lib conf.c:4528:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5007:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM spdif
+ALSA lib confmisc.c:1281:(snd_func_refer) Unable to find definition 'cards.tegra-hda.pcm.hdmi.0:CARD=0,AES0=4,AES1=130,AES2=0,AES3=2'
+ALSA lib conf.c:4528:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5007:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM hdmi
+ALSA lib confmisc.c:1281:(snd_func_refer) Unable to find definition 'cards.tegra-hda.pcm.hdmi.0:CARD=0,AES0=4,AES1=130,AES2=0,AES3=2'
+ALSA lib conf.c:4528:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5007:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM hdmi
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
+ALSA lib pcm_dmix.c:990:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm_params.c:2162:(snd1_pcm_hw_refine_slave) Slave PCM not usable
+ALSA lib pcm_params.c:2162:(snd1_pcm_hw_refine_slave) Slave PCM not usable
+ALSA lib pcm_params.c:2162:(snd1_pcm_hw_refine_slave) Slave PCM not usable
+ALSA lib pcm_params.c:2162:(snd1_pcm_hw_refine_slave) Slave PCM not usable
+ALSA lib pcm_dmix.c:1052:(snd_pcm_dmix_open) unable to open slave
+recording...
+Finish recording...
+FE done in 3.6463 seconds
+1/1 [==============================] - 0s 435ms/step
+prediction done in 0.6096 seconds
+predicted: Satu
+recording...
+Finish recording...
+FE done in 0.0392 seconds
+1/1 [==============================] - 0s 50ms/step
+prediction done in 0.1973 seconds
+predicted: Satu
+recording...
+Finish recording...
+FE done in 0.0647 seconds
+1/1 [==============================] - 0s 51ms/step
+prediction done in 0.1688 seconds
+predicted: Satu
+recording...
+Finish recording...
+FE done in 0.0384 seconds
+1/1 [==============================] - 0s 52ms/step
+prediction done in 0.1781 seconds
+predicted: Satu
+recording...
+Finish recording...
+FE done in 0.0436 seconds
+1/1 [==============================] - 0s 52ms/step
+prediction done in 0.1703 seconds
+predicted: Satu
+recording...
+Finish recording...
+FE done in 0.0442 seconds
+1/1 [==============================] - 0s 48ms/step
+prediction done in 0.1607 seconds
+predicted: Info
+recording...
+Finish recording...
+FE done in 0.0354 seconds
+1/1 [==============================] - 0s 48ms/step
+prediction done in 0.165 seconds
+predicted: Dua
+recording...
+Finish recording...
+FE done in 0.0388 seconds
+1/1 [==============================] - 0s 52ms/step
+prediction done in 0.1834 seconds
+predicted: Satu
+recording...
+Finish recording...
+FE done in 0.0361 seconds
+1/1 [==============================] - 0s 55ms/step
+prediction done in 0.1773 seconds
+predicted: Dua
+recording...
+Finish recording...
+FE done in 0.0389 seconds
+1/1 [==============================] - 0s 54ms/step
+prediction done in 0.1868 seconds
+predicted: Dua
+recording...
+Finish recording...
+FE done in 0.0349 seconds
+1/1 [==============================] - 0s 49ms/step
+prediction done in 0.1607 seconds
+predicted: Dua
+recording...
+Finish recording...
+FE done in 0.0378 seconds
+1/1 [==============================] - 0s 50ms/step
+prediction done in 0.1722 seconds
+predicted: Info
+recording...
+Finish recording...
+FE done in 0.0485 seconds
+1/1 [==============================] - 0s 51ms/step
+prediction done in 0.1678 seconds
+predicted: Dua
+recording...
+Finish recording...
+FE done in 0.0579 seconds
+1/1 [==============================] - 0s 49ms/step
+prediction done in 0.1627 seconds
+predicted: Dua
+recording...
+Finish recording...
+FE done in 0.0594 seconds
+1/1 [==============================] - 0s 53ms/step
+prediction done in 0.1734 seconds
+predicted: Tiga
+recording...
+Finish recording...
+FE done in 0.037 seconds
+1/1 [==============================] - 0s 55ms/step
+prediction done in 0.1762 seconds
+predicted: Tiga
+recording...
+Finish recording...
+FE done in 0.0389 seconds
+1/1 [==============================] - 0s 54ms/step
+prediction done in 0.1837 seconds
+predicted: Tiga
+recording...
+Finish recording...
+FE done in 0.0387 seconds
+1/1 [==============================] - 0s 56ms/step
+prediction done in 0.1757 seconds
+predicted: Tiga
+recording...
+Finish recording...
+FE done in 0.0356 seconds
+1/1 [==============================] - 0s 50ms/step
+prediction done in 0.1684 seconds
+predicted: Tiga
+recording...
+Finish recording...
+FE done in 0.0374 seconds
+1/1 [==============================] - 0s 50ms/step
+prediction done in 0.1681 seconds
+predicted: Tiga
+recording...
+Finish recording...
+FE done in 0.076 seconds
+1/1 [==============================] - 0s 49ms/step
+prediction done in 0.1661 seconds
+predicted: Empat
+recording...
+Finish recording...
+FE done in 0.0373 seconds
+1/1 [==============================] - 0s 49ms/step
+prediction done in 0.167 seconds
+predicted: Empat
+recording...
+Finish recording...
+FE done in 0.0372 seconds
+1/1 [==============================] - 0s 51ms/step
+prediction done in 0.1684 seconds
+predicted: Empat
+recording...
+Finish recording...
+FE done in 0.0378 seconds
+1/1 [==============================] - 0s 53ms/step
+prediction done in 0.1688 seconds
+predicted: Empat
+recording...
+Finish recording...
+FE done in 0.0363 seconds
+1/1 [==============================] - 0s 52ms/step
+prediction done in 0.169 seconds
+predicted: Empat
+recording...
+Finish recording...
+FE done in 0.0377 seconds
+1/1 [==============================] - 0s 54ms/step
+prediction done in 0.1895 seconds
+predicted: Lima
+recording...
+Finish recording...
+FE done in 0.0404 seconds
+1/1 [==============================] - 0s 54ms/step
+prediction done in 0.1707 seconds
+predicted: Lima
+recording...
+Finish recording...
+FE done in 0.0595 seconds
+1/1 [==============================] - 0s 52ms/step
+prediction done in 0.1696 seconds
+predicted: Lima
+recording...
+Finish recording...
+FE done in 0.0356 seconds
+1/1 [==============================] - 0s 49ms/step
+prediction done in 0.1643 seconds
+predicted: Lima
+recording...
+Finish recording...
+FE done in 0.0694 seconds
+1/1 [==============================] - 0s 51ms/step
+prediction done in 0.1704 seconds
+predicted: Lima
+recording...
+Finish recording...
+FE done in 0.0383 seconds
+1/1 [==============================] - 0s 53ms/step
+prediction done in 0.1703 seconds
+predicted: Enam
+recording...
+Finish recording...
+FE done in 0.0399 seconds
+1/1 [==============================] - 0s 50ms/step
+prediction done in 0.1692 seconds
+predicted: Enam
+recording...
+Finish recording...
+FE done in 0.0387 seconds
+1/1 [==============================] - 0s 49ms/step
+prediction done in 0.1622 seconds
+predicted: Enam
+recording...
+Finish recording...
+FE done in 0.0381 seconds
+1/1 [==============================] - 0s 50ms/step
+prediction done in 0.1699 seconds
+predicted: Enam
+recording...
+Finish recording...
+FE done in 0.0376 seconds
+1/1 [==============================] - 0s 53ms/step
+prediction done in 0.1875 seconds
+predicted: Enam
+recording...
+Finish recording...
+FE done in 0.0352 seconds
+1/1 [==============================] - 0s 53ms/step
+prediction done in 0.1695 seconds
+predicted: Mati
+recording...
+Finish recording...
+FE done in 0.0346 seconds
+1/1 [==============================] - 0s 50ms/step
+prediction done in 0.1677 seconds
+predicted: Mati
+recording...
+Finish recording...
+FE done in 0.0669 seconds
+1/1 [==============================] - 0s 50ms/step
+prediction done in 0.1619 seconds
+predicted: Mati
+recording...
+Finish recording...
+FE done in 0.0373 seconds
+1/1 [==============================] - 0s 52ms/step
+prediction done in 0.1748 seconds
+predicted: Mati
+recording...
+Finish recording...
+FE done in 0.0797 seconds
+1/1 [==============================] - 0s 49ms/step
+prediction done in 0.1673 seconds
+predicted: Mati
+recording...
+Finish recording...
+FE done in 0.0389 seconds
+1/1 [==============================] - 0s 51ms/step
+prediction done in 0.1667 seconds
+predicted: Nyala
+recording...
+Finish recording...
+FE done in 0.0451 seconds
+1/1 [==============================] - 0s 48ms/step
+prediction done in 0.162 seconds
+predicted: Nyala
+recording...
+Finish recording...
+FE done in 0.0365 seconds
+1/1 [==============================] - 0s 49ms/step
+prediction done in 0.1632 seconds
+predicted: Nyala
+recording...
+Finish recording...
+FE done in 0.0421 seconds
+1/1 [==============================] - 0s 52ms/step
+prediction done in 0.1825 seconds
+predicted: Nyala
+recording...
+Finish recording...
+FE done in 0.0352 seconds
+1/1 [==============================] - 0s 55ms/step
+prediction done in 0.1834 seconds
+predicted: Nyala
+recording...
+Finish recording...
+FE done in 0.0394 seconds
+1/1 [==============================] - 0s 53ms/step
+prediction done in 0.1718 seconds
+predicted: Next
+recording...
+Finish recording...
+FE done in 0.0412 seconds
+1/1 [==============================] - 0s 48ms/step
+prediction done in 0.1575 seconds
+predicted: Next
+recording...
+Finish recording...
+FE done in 0.0937 seconds
+1/1 [==============================] - 0s 47ms/step
+prediction done in 0.1513 seconds
+predicted: Next
+recording...
+Finish recording...
+FE done in 0.0393 seconds
+1/1 [==============================] - 0s 46ms/step
+prediction done in 0.1489 seconds
+predicted: Next
+recording...
+Finish recording...
+FE done in 0.0388 seconds
+1/1 [==============================] - 0s 45ms/step
+prediction done in 0.1471 seconds
+predicted: Next
+recording...
+Finish recording...
+FE done in 0.0412 seconds
+1/1 [==============================] - 0s 47ms/step
+prediction done in 0.1582 seconds
+predicted: Back
+recording...
+Finish recording...
+FE done in 0.04 seconds
+1/1 [==============================] - 0s 44ms/step
+prediction done in 0.1502 seconds
+predicted: Back
+recording...
+Finish recording...
+FE done in 0.0778 seconds
+1/1 [==============================] - 0s 50ms/step
+prediction done in 0.1714 seconds
+predicted: Back
+recording...
+Finish recording...
+FE done in 0.0385 seconds
+1/1 [==============================] - 0s 49ms/step
+prediction done in 0.1538 seconds
+predicted: Back
+recording...
+Finish recording...
+FE done in 0.0743 seconds
+1/1 [==============================] - 0s 46ms/step
+prediction done in 0.1533 seconds
+predicted: Back
+recording...
+Finish recording...
+FE done in 0.0382 seconds
+1/1 [==============================] - 0s 45ms/step
+prediction done in 0.1479 seconds
+predicted: Back
+recording...
+Finish recording...
+FE done in 0.0387 seconds
+1/1 [==============================] - 0s 47ms/step
+prediction done in 0.1511 seconds
+predicted: Info
+recording...
+Finish recording...
+FE done in 0.0564 seconds
+1/1 [==============================] - 0s 48ms/step
+prediction done in 0.1579 seconds
+predicted: Info
+recording...
+Finish recording...
+FE done in 0.0388 seconds
+1/1 [==============================] - 0s 48ms/step
+prediction done in 0.1593 seconds
+predicted: Info
+recording...
+Finish recording...
+FE done in 0.0379 seconds
+1/1 [==============================] - 0s 49ms/step
+prediction done in 0.1787 seconds
+predicted: Info
+recording...
+Finish recording...
+FE done in 0.0877 seconds
+1/1 [==============================] - 0s 46ms/step
+prediction done in 0.1532 seconds
+predicted: Info
+recording...
+Finish recording...
+FE done in 0.0396 seconds
+1/1 [==============================] - 0s 51ms/step
+prediction done in 0.1702 seconds
+predicted: Info
+recording...
+Finish recording...
+FE done in 0.0816 seconds
+1/1 [==============================] - 0s 49ms/step
+prediction done in 0.1616 seconds
+predicted: Tidak
+recording...
+Finish recording...
+FE done in 0.0391 seconds
+1/1 [==============================] - 0s 48ms/step
+prediction done in 0.1554 seconds
+predicted: Tidak
+recording...
+Finish recording...
+FE done in 0.0377 seconds
+1/1 [==============================] - 0s 48ms/step
+prediction done in 0.1516 seconds
+predicted: Tidak
+recording...
+Finish recording...
+FE done in 0.0389 seconds
+1/1 [==============================] - 0s 44ms/step
+prediction done in 0.1472 seconds
+predicted: Tidak
+recording...
+Finish recording...
+FE done in 0.0385 seconds
+1/1 [==============================] - 0s 45ms/step
+prediction done in 0.1525 seconds
+predicted: Tidak
+recording...
+Finish recording...
+FE done in 0.0388 seconds
+1/1 [==============================] - 0s 45ms/step
+prediction done in 0.1482 seconds
+predicted: Oke
+recording...
+Finish recording...
+FE done in 0.0389 seconds
+1/1 [==============================] - 0s 48ms/step
+prediction done in 0.1503 seconds
+predicted: Oke
+recording...
+Finish recording...
+FE done in 0.0407 seconds
+1/1 [==============================] - 0s 45ms/step
+prediction done in 0.1495 seconds
+predicted: Oke
+recording...
+Finish recording...
+FE done in 0.038 seconds
+1/1 [==============================] - 0s 53ms/step
+prediction done in 0.1787 seconds
+predicted: Oke
+recording...
+Finish recording...
+FE done in 0.077 seconds
+1/1 [==============================] - 0s 51ms/step
+prediction done in 0.1649 seconds
+predicted: Oke
+recording...
+Finish recording...
+FE done in 0.0386 seconds
+1/1 [==============================] - 0s 47ms/step
+prediction done in 0.1517 seconds
+predicted: Oke
+
